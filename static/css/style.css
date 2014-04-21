@@ -1,0 +1,250 @@
+body {
+    padding: 5%;
+    background-color: #e8f8ff !important;
+}
+
+
+.price {
+	&.undiscounted {
+		text-decoration: line-through;
+	}
+}
+
+.address-details {
+	border-bottom: 1px dashed;
+	color: #3a87ad;
+	cursor: pointer;
+}
+
+.popover {
+    min-width: 200px;
+}
+
+p {
+    font-family: Adobe Caslon Pro, arial, sans-serif;
+}
+
+.navbar-default {
+    background: none;
+    box-shadow: none;
+    border:none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.main_outer {
+    width: 100%;
+    background-image: url("/static/img/logo_large.png");
+    background-repeat: no-repeat;
+}
+
+.main {
+    background-color: #39c;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #b4dced !important;
+}
+
+#logo {
+    background-image: url('/static/img/logo-name.png');
+    background-repeat: no-repeat;
+    background-position: 170px 0px;
+    height: 125px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main a {
+    color: #b4dced;
+}
+
+.page_menu {
+    background-color: #91c9e8;
+    margin: 0;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.page_menu ul.nav li {
+    font-family: Adobe Caslon Pro, Arial, sans-serif;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #39c;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    text-shadow: none;
+    color: #39c;
+}
+#dropdown-menu-home {
+    display: none;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    /*
+    background-color: #357EBD;
+    background-image: linear-gradient(to bottom, #428BCA 0%, #357EBD 100%);
+    background-repeat: repeat-x;
+    */
+    background-color: none;
+    background-image: none;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: none;
+    background-image: none;
+    color: black;
+
+    /*
+    background-color: #428BCA;
+    color: #FFFFFF;
+    outline: 0 none;
+    text-decoration: none;
+    */
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #fff;
+}
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.page_menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+.page_menu a:hover, a:focus {
+    color: #e8f8ff;
+    text-decoration: none;
+    background-color: #91C9E8 !important;
+}
+
+.nav > li > a.dropdown-toggle:hover {
+    color: #e8f8ff;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    color: #e8f8ff;
+    text-decoration: none;
+    background-color: #91C9E8 !important;
+}
+
+.thumbnail {
+    border: 2px solid #b4dced;
+    border-radius: 15px;
+    width: 175px;
+    background: none;
+    box-shadow: none;
+    transition: none;
+}
+
+.thumbnail img {
+    margin-top: 5px;
+}
+
+.product-thumb h6 {
+    height: 25px;
+    color: #b4dced;
+    border-bottom: 1px dashed #b4dced;
+}
+
+.price:only-child, .coming-soon {
+    display: block;
+    margin: 5px 0 8px;
+}
+
+.price {
+    color: #b4dced;
+}
+
+
+/* Remove glow around input fields */
+textarea:focus,
+select:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    //  border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+}
+
+
+textarea,
+select,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    background-color: #e8f8ff !important;
+}
+
+.form-actions {
+    background: none;
+    border: none;
+}
+
+#id_quantity {
+    max-width: 50px !important;
+}
+
+footer {
+    background: none;
+    border-top: none;
+    margin-top: 15px;
+    padding-top: 0;
+}
+
+.table > thead > tr > th {
+    border-bottom: none;
+    vertical-align: bottom;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: none;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #67b8de;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
+    background-color: #39c;
+}
